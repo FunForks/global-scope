@@ -4,7 +4,7 @@ This repository shows how different node environments treat global variables dif
 
 To test:
 1. Run `node scope.js` in a Terminal window
-2. Open `index.html` in a browser.
+2. [Open `index.html` in a browser](https://funforks.github.io/global-scope/).
 
 Browsers will treat as a global any variable that is declared with `var` _outside_ any function block. This will _not_ happen if you run the `scope.js` script directly with Node from the Command Line.
 
